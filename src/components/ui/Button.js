@@ -1,8 +1,13 @@
-import React, { Component } from "react";
-import { observer } from "mobx-react";
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const Button = ({ ...props }) => {
-	return <a className="button" onClick={props.onClick}>{props.title}</a>;
-};
+  return <a className="button" onClick={props.onClick}>{props.title}</a>
+}
 
-export default Button;
+Button.propTypes = {
+  onClick: PropTypes.func,
+  title: PropTypes.string
+}
+
+export default Button
