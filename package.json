@@ -77,7 +77,7 @@
     "whatwg-fetch": "^2.0.3"
   },
   "repository": {
-    "url": "git@github.com:duck-lab/ci-client.git",
+    "url": "git:duck-lab/ci-client.git",
     "type": "git"
   }
 }
